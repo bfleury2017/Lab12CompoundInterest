@@ -28,7 +28,7 @@ namespace Lab12CompoundInterest
             for (double rate = interestRate; rate <= 6.25; rate+=0.25)
             {
                 Console.WriteLine($"Interest Rate: {rate:F}% on amount {principal:C}");
-                Console.WriteLine("Year   Current balance");
+                Console.WriteLine($"Year{"Current balance",20}");
 
                 for (int year = 1; year <= nyears; year++)
                 {
